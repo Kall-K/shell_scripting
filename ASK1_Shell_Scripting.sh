@@ -1,6 +1,4 @@
-# Zikos Spyridon 1084581
-# Kyriakoulopoulos Kallinikos 1084583
-# Makris Orestis-Antonis 1084516
+
 
 #!/bin/bash
 
@@ -12,8 +10,8 @@ mining_username () {
 
 case $# in
 
-0) echo "1084581|1084583|1084516"
-   echo "1084581|1084583|1084516" > AM.txt;;
+0) echo "10"
+   echo "10" > AM.txt;;
    
 1) awk '{print NR,$0}'  $1
    awk '{print $0}'  $1 > access_copy.log
